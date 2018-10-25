@@ -60,3 +60,14 @@
   margin-bottom: 0;
 }
 
+@media (min-width: 576px) {
+  #hit-words {
+    display: inline;
+  }
+}
+
+#hit-words {
+  width: 80%;
+  display: block;
+}
+
