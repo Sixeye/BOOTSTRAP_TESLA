@@ -63,5 +63,34 @@
 .reserve-button {
   background-color: rgba(0,98,204,0);
   border: 3px solid #fff;
+  border-radius: 30px;
+}
+
+.btn.btn-link.btn-block.arrow-button {
+  color: rgb(255,255,255);
+}
+
+.icon.ion-ios-arrow-down {
+  font-size: 32px;
+}
+
+#hero-botom .container {
+  width: 700px;
+  text-align: center;
+}
+
+.col.with-borders {
+  border: 1px solid rgba(255,255,255,0.36);
+  border-top: 0;
+  border-bottom: 0;
+}
+
+#video-and-stats {
+  text-align: center;
+}
+
+#video-and-stats iframe {
+  width: 900px;
+  height: 600px;
 }
 
