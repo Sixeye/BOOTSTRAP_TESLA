@@ -89,8 +89,35 @@
   text-align: center;
 }
 
+@media (min-width: 992px) {
+  #video-and-stats iframe {
+    width: 900px;
+    height: 600px;
+  }
+}
+
 #video-and-stats iframe {
-  width: 900px;
-  height: 600px;
+  width: 90%;
+  height: 400px;
+}
+
+#stats {
+  width: 600px;
+  margin: auto;
+}
+
+#stats .table thead th {
+  text-align: left;
+}
+
+#stats .cell-left {
+  text-align: left;
+  padding-left: 0px;
+}
+
+#stats .cell-right {
+  font-weight: bold;
+  text-align: right;
+  padding-right: 0px;
 }
 
