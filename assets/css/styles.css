@@ -102,12 +102,23 @@
 }
 
 #stats {
-  width: 600px;
+  width: 90%;
   margin: auto;
+  margin-bottom: 150px;
+}
+
+@media (min-width: 768px) {
+  #stats {
+    width: 600px;
+    margin: auto;
+    margin-bottom: 250px;
+  }
 }
 
 #stats .table thead th {
   text-align: left;
+  padding-left: 0px;
+  border-top: 0px;
 }
 
 #stats .cell-left {
