@@ -62,12 +62,13 @@
 
 @media (min-width: 576px) {
   #hit-words {
-    display: inline;
+    display: block;
   }
 }
 
-#hit-words {
-  width: 80%;
-  display: block;
+@media (max-width: 575px) {
+  #hit-words {
+    display: inline;
+  }
 }
 
