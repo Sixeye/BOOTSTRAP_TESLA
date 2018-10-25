@@ -49,3 +49,19 @@
   color: #fff;
 }
 
+.p-top {
+  font-size: 26px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+}
+
+.p-bot {
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.reserve-button {
+  background-color: rgba(0,98,204,0);
+  border: 3px solid #fff;
+}
+
