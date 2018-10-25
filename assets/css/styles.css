@@ -5,6 +5,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  color: #333;
 }
 
 @media (min-width: 768px) {
@@ -30,5 +31,21 @@
 
 .navbar-light .navbar-nav .nav-link {
   color: rgb(34,34,34);
+}
+
+#title {
+  font-family: Montserrat, sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+#subtitle {
+  font-size: 40px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+}
+
+#hero-botom {
+  color: #fff;
 }
 
